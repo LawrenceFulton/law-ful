@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "law-ful": {
+      "hosting": {
+        "law-ful": [
+          "law-ful"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "law-ful"
+  }
+}
