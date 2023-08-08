@@ -8,7 +8,7 @@ describe('CvComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [CvComponent]
+      declarations: [CvComponent],
     });
     fixture = TestBed.createComponent(CvComponent);
     component = fixture.componentInstance;

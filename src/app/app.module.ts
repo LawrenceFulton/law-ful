@@ -4,19 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatToolbarModule } from "@angular/material/toolbar";
-import { MatIconModule } from "@angular/material/icon";
-import { MatButtonModule } from "@angular/material/button";
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
 import { JokesComponent } from './components/jokes/jokes.component';
 import { CvComponent } from './components/cv/cv.component';
-import { NgOptimizedImage } from "@angular/common";
+import { NgOptimizedImage } from '@angular/common';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    JokesComponent,
-    CvComponent
-  ],
+  declarations: [AppComponent, JokesComponent, CvComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -24,9 +20,9 @@ import { NgOptimizedImage } from "@angular/common";
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    NgOptimizedImage
+    NgOptimizedImage,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
