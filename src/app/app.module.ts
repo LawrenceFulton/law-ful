@@ -10,9 +10,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { JokesComponent } from './components/jokes/jokes.component';
 import { CvComponent } from './components/cv/cv.component';
 import { NgOptimizedImage } from '@angular/common';
+import { DolphinDogComponent } from './components/dolphin-dog/dolphin-dog.component';
 
 @NgModule({
-  declarations: [AppComponent, JokesComponent, CvComponent],
+  declarations: [AppComponent, JokesComponent, CvComponent, DolphinDogComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

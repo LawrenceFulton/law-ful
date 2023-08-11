@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { JokesComponent } from './components/jokes/jokes.component';
 import { CvComponent } from './components/cv/cv.component';
+import { DolphinDogComponent } from "./components/dolphin-dog/dolphin-dog.component";
 
 const routes: Routes = [
   {
@@ -9,6 +10,7 @@ const routes: Routes = [
     children: [
       { path: 'jokes', component: JokesComponent },
       { path: 'cv', component: CvComponent },
+      { path: 'dolphin-dog', component: DolphinDogComponent}
     ],
   },
 ];
