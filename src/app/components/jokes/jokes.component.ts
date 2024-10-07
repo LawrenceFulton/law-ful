@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-jokes',
   templateUrl: './jokes.component.html',
   styleUrls: ['./jokes.component.css'],
-  standalone: true
+  standalone: true,
 })
 export class JokesComponent {}

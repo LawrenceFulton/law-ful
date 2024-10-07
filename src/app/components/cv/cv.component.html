@@ -1,25 +1,61 @@
-<div
-  class="grid grid-cols-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
->
+<div class="w-full md:w-1/2 mx-auto px-4 bg-white shadow">
   <div class="flex h-screen">
     <div class="w-full flex-grow rounded-2xl flex flex-col">
-      <img class="rounded-3xl" src="/assets/figures/CV.jpg" alt="image" />
+      <img
+        class="self-center rounded-3xl w-1/3"
+        src="/assets/figures/CV.jpg"
+        alt="image"
+      />
       <div class="w-full">
-        <ng-container *ngFor="let info of personalInfo">
-          <div class="flex flex-row">
-            <div class="w-1/3">
-              {{ info.type }}
+        <div class="flex flex-row">
+          <div class="w-1/3">Name</div>
+          <div class="w-2/3">Lawrence Fulton</div>
+        </div>
+
+        <div class="flex flex-row">
+          <div class="w-1/3">Wohnort</div>
+          <div class="w-2/3">Aachen</div>
+        </div>
+
+        <div class="flex flex-row">
+          <div class="w-1/3">Arbeitserfahrung</div>
+          <div class="w-2/3">
+            <div class="flex flex-row">
+              <div class="w-1/3">Sep 2022 - Jun 2024</div>
+              <div class="w-2/3">
+                Softwareentwickler bei
+                <a href="https://l21s.de" class="text-blue-500">L21 GmbH</a>
+              </div>
             </div>
-            <div class="w-2/3">
-              {{ info.info }}
+            <div class="flex flex-row">
+              <div class="w-1/3">Sep 2023 -</div>
+              <div class="w-2/3">
+                Co-founder von
+                <a href="https://background-app.de" class="text-blue-500"
+                  >Background</a
+                >
+              </div>
             </div>
           </div>
-        </ng-container>
+        </div>
+        <div class="flex flex-row">
+          <div class="w-1/3">Studium</div>
+          <div class="w-2/3">
+            <div class="flex flex-row">
+              <div class="w-1/3">Sep 2018 - Jun 2021</div>
+              <div class="w-2/3">
+                BSc Artificial Intelligence an der University of Groningen
+              </div>
+            </div>
+            <div class="flex flex-row">
+              <div class="w-1/3">Sep 2021 -</div>
+              <div class="w-2/3">
+                MSc Computational Social Systems an der RWTH Aachen
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="col-span-3 h-screen">
-    <!-- Content in the right column -->
-    Worked in a bar once :)
   </div>
 </div>

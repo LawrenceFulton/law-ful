@@ -8,7 +8,7 @@ describe('DophineDogComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [DolphinDogComponent]
+      declarations: [DolphinDogComponent],
     });
     fixture = TestBed.createComponent(DolphinDogComponent);
     component = fixture.componentInstance;

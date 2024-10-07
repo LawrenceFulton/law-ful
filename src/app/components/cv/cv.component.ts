@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { NgForOf } from "@angular/common";
+import { NgForOf, NgOptimizedImage } from '@angular/common';
+import { CvItemComponent } from '../cv-item/cv-item.component';
 
 export interface PersonalInfo {
   type: string;
@@ -10,7 +11,7 @@ export interface PersonalInfo {
   selector: 'app-cv',
   templateUrl: './cv.component.html',
   styleUrls: ['./cv.component.css'],
-  imports: [NgForOf],
+  imports: [NgForOf, NgOptimizedImage, CvItemComponent],
   standalone: true,
 })
 export class CvComponent {
@@ -18,7 +19,12 @@ export class CvComponent {
     { type: 'Name', info: 'Lawrence Fulton' },
     { type: 'Alter', info: '24' },
     { type: 'Wohnort', info: 'Aachen' },
-    { type: 'Studium', info: 'Computational Social Science' },
+    {
+      type: 'Arbeitserfahrung',
+      info: 'Softwareentwickler bei <a href="https://www.ericsson.com">Ericsson</a> (2021-)',
+    },
+    { type: 'Master', info: 'Computational Social Science (2021-)' },
+    { type: 'Bachelor', info: 'Artificial Intelligence (2018-2021)' },
     { type: 'Hobbies', info: 'Badminton, Elektronische Musik, Programmieren' },
   ];
 }
