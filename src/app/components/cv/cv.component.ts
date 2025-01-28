@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { NgForOf, NgOptimizedImage } from '@angular/common';
-import { CvItemComponent } from '../cv-item/cv-item.component';
 
 export interface PersonalInfo {
   type: string;
