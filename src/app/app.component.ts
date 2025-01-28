@@ -5,10 +5,10 @@ import { MatButton } from '@angular/material/button';
 import { HeaderComponent } from './components/header/header.component';
 
 @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css'],
-    imports: [MatIcon, MatButton, RouterLink, RouterOutlet, HeaderComponent]
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
+  imports: [RouterOutlet, HeaderComponent],
 })
 export class AppComponent {
   title = 'law-ful';
