@@ -8,11 +8,10 @@ export interface PersonalInfo {
 }
 
 @Component({
-  selector: 'app-cv',
-  templateUrl: './cv.component.html',
-  styleUrls: ['./cv.component.css'],
-  imports: [NgForOf, NgOptimizedImage, CvItemComponent],
-  standalone: true,
+    selector: 'app-cv',
+    templateUrl: './cv.component.html',
+    styleUrls: ['./cv.component.css'],
+    imports: [NgForOf, NgOptimizedImage, CvItemComponent]
 })
 export class CvComponent {
   personalInfo: PersonalInfo[] = [
