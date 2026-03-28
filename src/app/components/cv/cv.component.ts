@@ -36,6 +36,7 @@ export class CvComponent {
       period: 'Jan 2026 - Present',
       location: 'Düsseldorf, North Rhine-Westphalia, Germany · Hybrid',
       description: [],
+      skills: 'Consulting, Digital Transformation, Fullstack Development, Business Intelligence, Data Science',
     },
     {
       title: 'Co-Founder & Software Lead',
@@ -51,7 +52,8 @@ export class CvComponent {
         'Unternehmensaufbau: Strategische Produktentwicklung, Übernahme administrativer Kernprozesse sowie Vorbereitung und Durchführung von Pitches.',
         'End-to-End Ownership: Ganzheitliche Verantwortung von der ersten Codezeile bis zum erfolgreichen Launch in den App Stores.',
       ],
-      skills: 'Python, Angular and +5 skills',
+      skills:
+        'Python, Angular, Flutter, Dart, Firebase, Serverless, Product Development',
     },
     {
       title: 'Junior Engineer',
@@ -66,7 +68,7 @@ export class CvComponent {
         'Kern-Features: Umsetzung von Anwendungen für die elektronische Schweigepflichtsentbindung und medizinische Rechnungsprüfung.',
         'Integration: Anbindung externer Systeme (z. B. GDV, OCR-Texterkennung) zur Prozessautomatisierung.',
       ],
-      skills: 'Python, Angular and +4 skills',
+      skills: 'Python, Angular, Kotlin, Spring Boot, TypeScript, Data Science',
     },
   ];
 
@@ -89,13 +91,13 @@ export class CvComponent {
       school: 'RWTH Aachen University',
       degree: 'Master of Science - MS, Computational Social Systems',
       period: 'Oct 2021 - Nov 2025',
-      skills: 'Data Science, Python and +3 skills',
+      skills: 'Data Science, Python, Machine Learning, Network Analysis, NLP',
     },
     {
       school: 'University of Groningen',
       degree: 'Bachelor of Science - BS, Artificial Intelligence',
       period: 'Sep 2018 - Aug 2021',
-      skills: 'Data Science, Python and +2 skills',
+      skills: 'Data Science, Python, Machine Learning, Statistics',
     },
   ];
 }
