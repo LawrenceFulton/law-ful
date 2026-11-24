@@ -26,12 +26,12 @@ export interface Education {
 export class CvComponent {
   name = 'Lawrence Fulton';
   headline = 'Building a Brighter Tomorrow with Code and a Heart';
-  location = 'Düsseldorf, Germany';
 
   experience: Experience[] = [
     {
       title: 'Specialist',
       company: 'PD - Berater der öffentlichen Hand GmbH',
+      companyUrl: 'https://www.pd-g.de/',
       type: 'Full-time',
       period: 'Jan 2026 - Present',
       location: 'Düsseldorf, North Rhine-Westphalia, Germany · Hybrid',
